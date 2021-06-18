@@ -1,4 +1,4 @@
-Примеры слайдеров на чистом JavaScript
+Примеры слайдеров на чистом JavaScript🔥🔥�
 
-Ссылки:
-1. Sloder - https://jsfiddle.net/nikittansk/e2fjncz0/
+🖍Ссылки:
+1. Slider - https://jsfiddle.net/nikittansk/e2fjncz0/
