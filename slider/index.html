@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Слайдер</title>
+</head>
+<body>
+    <div class="container">
+        
+        <!-- Фон и текст, который будет слева -->
+        <div class="sidebar">
+            <div style="background: linear-gradient(90deg, rgba(47,218,227,1) 18%, rgba(37,238,212,1) 93%);">
+                <h1>Animals</h1>
+            </div>
+
+            <div style="background: linear-gradient(90deg, rgba(232,248,249,1) 9%, rgba(235,242,241,1) 93%);">
+                <h1>Plants</h1>
+            </div>
+
+            <div style="background: linear-gradient(180deg, rgba(245,211,16,1) 34%, rgba(238,211,84,1) 77%);">
+                <h1>Keys</h1>
+            </div>
+
+            <div style="background: linear-gradient(115deg, rgba(16,97,245,1) 34%, rgba(85,84,238,1) 78%);">
+                <h1>Colorful blue blossoms</h1>
+            </div>
+        </div>
+
+        <!-- Картинки, которые будут справа -->
+        <div class="main-slide">
+            <div style="background-image: url('https://images.unsplash.com/photo-1623221638187-91bd42da2de6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=751&q=80');"></div>
+            <div style="background-image: url('https://images.unsplash.com/photo-1623241467968-7071a3981459?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80');"></div>
+            <div style="background-image: url('https://images.unsplash.com/photo-1623667958250-66e9ffcc3d6b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80');"></div>
+            <div style="background-image: url('https://images.unsplash.com/photo-1496196614460-48988a57fccf?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80');"></div>
+        </div>
+
+        <!-- Кнопки -->
+        <div class="controls">
+            <button class="down-button">
+                <i class="fas fa-arrow-down"></i>
+            </button>
+            <button class="up-button">
+                <i class="fas fa-arrow-up"></i>
+            </button>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
